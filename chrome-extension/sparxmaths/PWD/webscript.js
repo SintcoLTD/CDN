@@ -15,7 +15,7 @@ fetch('https://raw.githubusercontent.com/SintcoLTD/CDN/main/chrome-extension/spa
             chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
               if (request.action === 'continueScript') {
                 var s = document.createElement('script');
-                s.src = chrome.runtime.getURL('inject.js');
+                s.src = chrome.runtime.getURL('https://github.com/SintcoLTD/CDN/blob/main/chrome-extension/sparxmaths/PWD/inject.js');
                 s.onload = function() {
                   this.remove();
                 };
