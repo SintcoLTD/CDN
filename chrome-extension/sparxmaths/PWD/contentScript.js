@@ -1,10 +1,9 @@
-//START FILE CHECK FOR 1.1
-fetch('https://example.com/file.txt')
+// START FILE CHECK FOR 1.1
+fetch('https://raw.githubusercontent.com/SintcoLTD/CDN/main/chrome-extension/sparxmaths/PWD/version-contentScript-lock/1.1.txt')
   .then(response => response.text())
   .then(text => {
-    if (text.includes('go')) {
-      /
-      /
+    if (text.includes('CHROME EXTENSION ENABLE')) {
+      // START PASSWORD CHECK
       chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
         if (request.action === 'continueScript') {
           var s = document.createElement('script');
@@ -17,6 +16,9 @@ fetch('https://example.com/file.txt')
         }
       });
       // END PASSWORD CHECK
+    } else {
+      // Display file contents if it does not contain "CHROME EXTENSION ENABLE"
+      alert(`ERROR MESSAGE!!!\n\n${text}`);
     }
   })
   .catch(error => console.log(error));
