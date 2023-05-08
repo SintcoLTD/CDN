@@ -781,11 +781,15 @@ function showThemes() {
 		};
 		themeNode.addEventListener('click', function() {
 			console.log(`You clicked theme ${index}`);
-			updateLocalStorage('colour-theme', 'theme', index)
-			document.documentElement.style.setProperty('--darkest', theme['darkest']);
-			document.documentElement.style.setProperty('--dark', theme['dark']);
-			document.documentElement.style.setProperty('--light', theme['light']);
-			document.documentElement.style.setProperty('--lightest', theme['lightest']);
+			if (index === '3') {
+				localStorage.setItem('colour-theme', index);
+			} else {
+				updateLocalStorage('colour-theme', 'theme', index);
+				document.documentElement.style.setProperty('--darkest', theme['darkest']);
+				document.documentElement.style.setProperty('--dark', theme['dark']);
+				document.documentElement.style.setProperty('--light', theme['light']);
+				document.documentElement.style.setProperty('--lightest', theme['lightest']);
+			}
 		});
 		themesList.appendChild(themeNode);
 	};
@@ -794,6 +798,7 @@ function showThemes() {
 	themesContainer.appendChild(themesList);
 	container.append(themesContainer);
 }
+
 
 function getInput() {
 	function addText(nodeList) {
