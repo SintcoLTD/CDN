@@ -1,1 +1,1 @@
-CHROME EXTENSION ENABLE
+This chrome extension is disabled
