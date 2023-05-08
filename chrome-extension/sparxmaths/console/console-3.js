@@ -21,10 +21,10 @@ const themes = {
 	},
 // default for sparx
 	3: {
-		'darkest': '#00b6df',
-		'dark': '#2e90be',
-		'light': '#FFFFFF',
-		'lightest': '#083345',
+		'darkest': '#00FFFFFF',
+		'dark': '#00FFFFFF',
+		'light': '#00FFFFFF',
+		'lightest': '#00FFFFFF',
 	},
 
 	4: {
