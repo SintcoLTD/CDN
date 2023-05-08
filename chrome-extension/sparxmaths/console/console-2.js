@@ -19,12 +19,12 @@ const themes = {
 		'light': '#b08968',
 		'lightest': '#ddb892',
 	},
-
+// default for sparx
 	3: {
-		'darkest': '#241E92',
-		'dark': '#5432D3',
-		'light': '#7B6CF6',
-		'lightest': '#E5A5FF',
+		'darkest': '#00b6df',
+		'dark': '#2e90be',
+		'light': '#FFFFFF',
+		'lightest': '#083345',
 	},
 
 	4: {
@@ -849,10 +849,10 @@ function getInput() {
 
 async function credits() {
 	await sleep(10000);
-	console.clear()
+	console.clear();
 	console.log.apply(console, ["%c CDN by SINTCO LTD %c ", "color: #000; background: #ffcc33; padding:5px 0;", "color: #fff; background: #242424; padding:5px 0 5px 5px;"]);
-	console.log.apply(console, ["%c Thanks for using my Sparxmaths Solver program! ", "color: #fff; background: #8000ff; padding:5px 0;"])
-	console.log.apply(console, ["%c Brought to you by Najm & Alex lo Storto %c\ud83d\ude80 ", "color: #fff; background: #8000ff; padding:5px 0;", "color: #fff; background: #242424; padding:5px 0 5px 5px;"])
+	console.log.apply(console, ["%c Thanks for using my Sparxmaths Solver program! ", "color: #fff; background: #8000ff; padding:5px 0;"]);
+	console.log.apply(console, ["%c Brought to you by Najm & Alex lo Storto %c\ud83d\ude80 ", "color: #fff; background: #8000ff; padding:5px 0;", "color: #fff; background: #242424; padding:5px 0 5px 5px;"]);
 }
 
 main();
