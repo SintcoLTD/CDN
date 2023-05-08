@@ -19,7 +19,7 @@ const themes = {
 		'light': '#b08968',
 		'lightest': '#ddb892',
 	},
-// default for sparx
+
 	3: {
 		'darkest': '#241E92',
 		'dark': '#5432D3',
