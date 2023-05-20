@@ -29,5 +29,7 @@ We reserve the right to modify or terminate Sparxmaths Solver at any time withou
 Governing Law:  
 These terms and conditions shall be governed by and construed in accordance with the laws of the country in which you reside.
 
+Credit & Acknowledgements:
+If you Modify this program in any way, you must leave credits to the main GitHub.com repository.
 
 By using Sparxmaths Solver, you agree to be bound by these terms and conditions. If you do not agree with any of these terms and conditions, please do not use the extension.
