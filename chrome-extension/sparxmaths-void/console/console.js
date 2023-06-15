@@ -81,7 +81,6 @@ function md5(inputString) {
 }
 
 async function checkUser() {
-    visits = await(await fetch(counterURL)).json();
 
     let response = await contactDatabase('find', 'users', 'user-data'); 
 
@@ -200,8 +199,7 @@ async function contactDatabase(action, database, collection, content=false) {
 }
 
 async function main() {    
-    if (document.querySelector('.package-container') !== null) { showThemes(); }
-
+    if (document.querySelector('.package-container') !== null) {
     if (document.querySelector('.status-bar-label.status-bar-label-username') !== null && userName == null) { userName = document.querySelector('.status-bar-label.status-bar-label-username').textContent }
 
     const xpElement = document.querySelector('.status-bar-label-text') //XP header
