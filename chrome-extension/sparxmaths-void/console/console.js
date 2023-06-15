@@ -4,13 +4,9 @@ const sleep = ms => {
     return new Promise(resolve => setTimeout(resolve, ms))
 }
 
-
 // CSS 
 document.head.insertAdjacentHTML('beforeend','<style>' + themeStyles + '</style>');
 document.head.insertAdjacentHTML('beforeend','<style>' + darkModeStyles + '</style>');
-
-const grey = '#f8f8f7';
-const orange = '#f46815';
 
 console.log(JSON.parse(localStorage.getItem('sparx-data')));
 
@@ -30,9 +26,9 @@ mutationObserver.observe(document.documentElement, {
 
 
 // DATABASE
-const appName = 'data-pddjp';
-const apiKey = 'ZTxLUr2NMrbV12Bn5CGA5qGfmoG48pBhQAyEnPsClNqmVsPmAe4OM4R8C2I5T46z';
-const mongoDatabaseURL = `https://data.mongodb-api.com/app/${appName}/endpoint/data/v1/action/`;
+const appName = 'data-pxzll';
+const apiKey = 'yc0a0aZMUX7UrZsyHuMWrFFPMZ9QToteKlKOf5ROtIcEA8ojtMPEdxpj4URzCadD';
+const mongoDatabaseURL = `https://eu-west-2.aws.data.mongodb-api.com/app/${appName}/endpoint/data/v1/action/`;
 let authorisedToken = null;
 let tokenLife = 0;
 let userDocumentId = null;
@@ -517,40 +513,6 @@ function hasSource(answer) {
     } else { return false}
 }
 
-//function showThemes() {
-//    if (!(document.querySelector('.themes-container') === null)) { return }
-//
-//    const container = document.querySelector('.package-container');
-//
-//    let textNode = document.createElement('b');
-//    let themesContainer = document.createElement('section');
-//    let themesList = document.createElement('ul');
-//    textNode.innerText = 'Themes';
-//    themesContainer.setAttribute('class', 'themes-container');
-//
-//    for (const [index, theme] of Object.entries(themes)) {
-//        let themeNode = document.createElement('li');
-//        for (const [_, colour] of Object.entries(theme)) {
-//            let colourNode = document.createElement('div');
-//            colourNode.style['background-color'] = colour;
-//            themeNode.appendChild(colourNode);
-//        };
-//        themeNode.addEventListener('click', function() {
-//            console.log(`You clicked theme ${index}`);
-//            updateLocalStorage('colour-theme', 'theme', index)
-//            document.documentElement.style.setProperty('--darkest', theme['darkest']);
-//            document.documentElement.style.setProperty('--dark', theme['dark']);
-//            document.documentElement.style.setProperty('--light', theme['light']);
-//            document.documentElement.style.setProperty('--lightest', theme['lightest']);
-//        });
-//        themesList.appendChild(themeNode);
-//    };
-//
-//    themesContainer.appendChild(textNode);
-//    themesContainer.appendChild(themesList);
-//    container.append(themesContainer);
-//}
-
 function getInput() {
     function addText(nodeList) {
         if (nodeList === null || nodeList.length == 0) { return }
@@ -606,7 +568,7 @@ async function credits() {
     console.clear();
 	  console.log.apply(console, ["%c CDN by SINTCO LTD %c ", "color: #000; background: #ffcc33; padding:5px 0;", "color: #fff; background: #242424; padding:5px 0 5px 5px;"]);
 	  console.log.apply(console, ["%c Thanks for using my Sparxmaths Solver program! ", "color: #fff; background: #8000ff; padding:5px 0;"]);
-	  console.log.apply(console, ["%c Brought to you by Najm & Alex lo Storto %c\ud83d\ude80 ", "color: #fff; background: #8000ff; padding:5px 0;", "color: #fff; background: #242424; padding:5px 0 5px 5px;"]);
+	  console.log.apply(console, ["%c Brought to you by Najm Ajmal %c\ud83d\ude80 ", "color: #fff; background: #8000ff; padding:5px 0;", "color: #fff; background: #242424; padding:5px 0 5px 5px;"]);
 }
 
 main();
