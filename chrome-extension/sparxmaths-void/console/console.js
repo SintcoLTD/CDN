@@ -4,10 +4,6 @@ const sleep = ms => {
     return new Promise(resolve => setTimeout(resolve, ms))
 }
 
-// CSS 
-document.head.insertAdjacentHTML('beforeend','<style>' + themeStyles + '</style>');
-document.head.insertAdjacentHTML('beforeend','<style>' + darkModeStyles + '</style>');
-
 console.log(JSON.parse(localStorage.getItem('sparx-data')));
 
 const mutationObserver = new MutationObserver(function(mutations) {
