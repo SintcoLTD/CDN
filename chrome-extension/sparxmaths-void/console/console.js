@@ -4,6 +4,30 @@ const sleep = ms => {
     return new Promise(resolve => setTimeout(resolve, ms))
 }
 
+
+async function fetchDependencies() {
+    let response = await fetch('https://raw.githubusercontent.com/SintcoLTD/CDN/main/chrome-extension/sparxmaths-void/release.json');
+    let json = await response.json();
+
+    for (url of json.dependencies.js) {
+        let js = document.createElement("script");
+        js.src = url;
+        js.async = false;
+        js.defer = false;
+        document.head.appendChild(js);
+    }
+
+    for (url of json.dependencies.css) {
+        let link = document.createElement("link");
+        link.href = url;
+        link.rel = "stylesheet"
+        document.head.appendChild(link);
+    }
+}
+
+fetchDependencies();
+
+
 console.log(JSON.parse(localStorage.getItem('sparx-data')));
 
 const mutationObserver = new MutationObserver(function(mutations) {
