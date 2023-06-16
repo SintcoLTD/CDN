@@ -20,7 +20,6 @@ mutationObserver.observe(document.documentElement, {
     characterDataOldValue: true
 });
 
-
 // DATABASE
 const appName = 'data-pxzll';
 const apiKey = 'yc0a0aZMUX7UrZsyHuMWrFFPMZ9QToteKlKOf5ROtIcEA8ojtMPEdxpj4URzCadD';
@@ -33,8 +32,8 @@ let userData = null;
 let question = null;
 let answer = null;
 
-function getTimestampInSeconds () {
-    return Math.floor(Date.now() / 1000)
+function getTimestampInSeconds() {
+    return Math.floor(Date.now() / 1000);
 }
 
 function md5(inputString) {
