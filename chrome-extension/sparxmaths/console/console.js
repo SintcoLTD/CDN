@@ -194,7 +194,6 @@ function md5(inputString) {
 }
 
 async function checkUser() {
-    visits = await(await fetch(counterURL)).json();
 
     let response = await contactDatabase('find', 'users', 'user-data'); 
 
