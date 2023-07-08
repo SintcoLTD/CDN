@@ -23,7 +23,7 @@ const themes = {
     3: {
         'darkest': '#000000',
         'dark':  '#000000',
-        'light':  '#363636',
+        'light':  '#000000',
         'lightest': '#01ff0e',
     },
 
