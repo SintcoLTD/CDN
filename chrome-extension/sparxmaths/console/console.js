@@ -1,3 +1,4 @@
+console.clear();
 console.log("Script is running");
 
 const sleep = ms => {
@@ -706,8 +707,8 @@ function getInput() {
 }
 
 async function credits() {
-    await sleep(10000);
-    console.clear();
+    await sleep(500);
+	  console.clear();  
 	  console.log.apply(console, ["%c CDN by SINTCO LTD %c ", "color: #000; background: #ffcc33; padding:5px 0;", "color: #fff; background: #242424; padding:5px 0 5px 5px;"]);
 	  console.log.apply(console, ["%c Thanks for using my Sparxmaths Solver program! ", "color: #fff; background: #8000ff; padding:5px 0;"]);
 	  console.log.apply(console, ["%c Brought to you by Najm Ajmal %c\ud83d\ude80 ", "color: #fff; background: #8000ff; padding:5px 0;", "color: #fff; background: #242424; padding:5px 0 5px 5px;"]);
