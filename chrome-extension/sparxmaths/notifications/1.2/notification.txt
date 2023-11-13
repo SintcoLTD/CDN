@@ -1,0 +1,4 @@
+Updated to SparxV2
+Download new extension
+
+github.com/SintcoLTD/sparxmaths

@@ -1,0 +1,3 @@
+This Chrome extension has now been deprecated
+
+Download new version at sparxmaths.glitch.me
