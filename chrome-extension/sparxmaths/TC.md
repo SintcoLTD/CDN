@@ -1,35 +1,71 @@
-Welcome to the terms and conditions for Sparxmaths Solver, an extension designed to assist you with your maths homework. Please read these terms and conditions carefully before using the extension. By using Sparxmaths Solver, you agree to be bound by these terms and conditions.
+SparxSolver Terms, Conditions & Privacy Policy
 
-Educational Use Only:  
-Sparxmaths Solver is designed for educational purposes only. It is intended to be used as a tool to help you with your maths homework, but not as a means of cheating.
+Welcome to the terms and conditions for SparxSolver, a browser extension designed to assist you with your maths homework. Please read these terms and conditions carefully before using the extension. By using SparxSolver, you agree to be bound by these terms and conditions.
 
+1. Educational Use Only
 
-No Affiliation with Sparx:  
-Sparxmaths Solver is not affiliated with Sparx Maths or Sparx LTD or any other educational institution or organization.
+SparxSolver is designed for educational purposes only. It is intended to help you with your maths homework and learning. It is not a tool for cheating, and you should use it responsibly.
 
+2. No Affiliation
 
-No Purchases:  
-Sparxmaths Solver does not offer any purchases or additional services. All features are available for free.
+SparxSolver is not affiliated with Sparx Maths, Sparx LTD, or any other educational institution or organization.
 
+3. No Purchases
 
-Privacy Policy:  
-Sparxmaths Solver collects data from each user. The data collected includes account creation dates, login times and answer data. This information is used to improve the accuracy of the extension and to provide you with a better experience. We take the privacy of our users very seriously and all confidential information is encrypted. We will not share any personal information with third parties.
+SparxSolver does not offer any purchases or paid services. All features are available for free.
 
+4. Privacy & Data Collection
 
-No Liability:  
-We do not guarantee the accuracy of the answers provided by Sparxmaths Solver. We are not responsible for any consequences that may arise from the use of this extension.
+SparxSolver collects certain data to improve the extension and provide you with a better experience. The types of data collected include:
 
-Prohibited Conduct:  
-You may not use Sparxmaths Solver to cheat or engage in any other illegal or unethical conduct. We reserve the right to terminate your use of the extension if we suspect that you are engaging in any prohibited conduct.
+User ID: A unique identifier generated for each user.
 
+Page interactions: Pages visited, time spent on pages, clicks, scroll depth, and feature usage.
 
-Modification and Termination:  
-We reserve the right to modify or terminate Sparxmaths Solver at any time without notice.
+IP address and country: Collected via Cloudflare for analytics purposes.
 
-Governing Law:  
-These terms and conditions shall be governed by and construed in accordance with the laws of the country in which you reside.
+Mellowtel opt-in status: Whether you have opted into the Mellowtel service.
 
-Credit & Acknowledgements:
-If you Modify this program in any way, you must leave credits to the main GitHub.com repository.
+Event timestamps: Time when interactions occur.
 
-By using Sparxmaths Solver, you agree to be bound by these terms and conditions. If you do not agree with any of these terms and conditions, please do not use the extension.
+How we use this data:
+
+To improve the functionality and accuracy of SparxSolver.
+
+To monitor feature usage and optimize user experience.
+
+To optionally provide personalized Mellowtel integration.
+
+Data privacy & security:
+
+All data is stored securely using Cloudflare Durable Objects and KV storage.
+
+Personal data such as IP and country is treated as sensitive; we do not share this information with third parties.
+
+Users have the right to opt-out of tracking and Mellowtel opt-in.
+
+By using SparxSolver, you consent to this collection and usage of your data.
+
+5. No Liability
+
+We do not guarantee the accuracy of the answers or recommendations provided by SparxSolver. We are not responsible for any consequences arising from the use of this extension.
+
+6. Prohibited Conduct
+
+You may not use SparxSolver to cheat, engage in illegal activity, or violate ethical standards. We reserve the right to terminate your access if prohibited conduct is suspected.
+
+7. Modification and Termination
+
+We may modify or terminate SparxSolver at any time without prior notice. Features may change as the extension evolves.
+
+8. Governing Law
+
+These terms are governed by the laws of the country in which you reside.
+
+9. Credit & Acknowledgements
+
+If you modify SparxSolver, you must retain credits linking to the original GitHub repository.
+
+10. Agreement
+
+By using SparxSolver, you agree to these terms and conditions. If you do not agree, please do not use the extension.
